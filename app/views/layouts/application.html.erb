@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bill's Blog</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<center><h1>Welcome to Bill's Blog!</h1>
+<h3>My 3rd RoR website</h3>
+<h4>Soon to be live 24/7 on Heroku!</h4></center>
+<br>
+<%= link_to "Home", root_path %>
+<%= link_to "New Post", new_post_path %>
+<%= yield %>
+
+</body>
+</html>
