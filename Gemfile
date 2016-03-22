@@ -1,5 +1,7 @@
-source 'https://rubygems.org'
+source 'http://www.rubygems.org'
 
+# Ruby version declaration
+#gem 'ruby', '2.2.3p173'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
@@ -44,10 +46,11 @@ group :development do
 end
 
 group :development do
-	gem 'sqlite3'
+  gem 'sqlite3'
 end
 
 group :production do
-	gem 'pg'
-	gem 'rails_12factor'
+#	gem 'sqlite3'
+  gem 'pg'
+  gem 'rails_12factor'
 end
