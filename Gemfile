@@ -1,7 +1,7 @@
 source 'http://www.rubygems.org'
 
 # Ruby version declaration
-#gem 'ruby', '2.2.3p173'
+ruby, '2.2.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
